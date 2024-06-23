@@ -21,23 +21,18 @@
    
 }
 @media(max-width:1000px){
-    .about_us{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
-    
+   .git{
+    width: 200px;
+    height: 200px;
+}
 }
 @media(max-width:700px){
    
     .nav__logo{
         font-size: 30px;
     }
-    .about_us_text{
-        font-size: 25px;
-        width: 450px; 
-    }
+    
+    
     .my__projects{
         height: 1800px;
         }
@@ -46,9 +41,13 @@
         height: 300px;
      
      }
-     .frontend__content img{
+     .html{
     width: 350px;
     height: 200px;
+    }
+    .git{
+        width: 170px;
+        height: 170px;
     }
     .content2 img{
         width: 125px;

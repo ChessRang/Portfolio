@@ -26,6 +26,7 @@ line-height: normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .content2 img{
@@ -219,17 +220,16 @@ flex-direction: column;
     width: 100%;
     
 }
-.my__projects a{
-    
+
+.git{
+width: 250px;
+height: 250px;
+margin-top: 50px;
 transition: 0.3s;
 }
-.my__projects a:hover{
-    
-transform: scale(1.1);
+.git:hover{
+transform: scale(1.2);
 }
-
-
-
 .card img{
   width: 1000px;
   height: 500px;
